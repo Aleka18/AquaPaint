@@ -7,64 +7,42 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="logo.png" alt="Logo AquaPaint">
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="AquaPaint Logo" class="logo">
         </div>
-        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
-        <nav class="navbar" id="navbar">
+        <nav class="navbar">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="productos.html" class="active">Productos</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
                 <li><a href="sostenibilidad.html">Sostenibilidad</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero-productos">
-        <div class="hero-content">
-            <h1>Nuestros Productos</h1>
-            <p>Calidad profesional, formulados con ciencia, pensados para el arte y el planeta.</p>
+    <section class="products">
+        <h1>Productos HydroOil</h1>
+        <div class="product-cards">
+            <div class="product-card">
+                <img src="hydrooil1.jpg" alt="HydroOil Básico" class="product-img">
+                <h3>HydroOil Básico</h3>
+                <p>La pintura ecológica para interiores, con base acuosa y acabado mate.</p>
+                <a href="#" class="btn-secondary">Más detalles</a>
+            </div>
+            <div class="product-card">
+                <img src="hydrooil2.jpg" alt="HydroOil Premium" class="product-img">
+                <h3>HydroOil Premium</h3>
+                <p>Para proyectos de alto rendimiento, con acabado brillante y resistencia superior.</p>
+                <a href="#" class="btn-secondary">Más detalles</a>
+            </div>
         </div>
     </section>
 
-    <section class="product-list">
-        <div class="product-card">
-            <img src="hydrooil-tubo.jpg" alt="HydroOil Tubo">
-            <h2>HydroOil</h2>
-            <p>Pintura al óleo miscible en agua de grado profesional. Alta pigmentación, sin solventes tóxicos, ideal para artistas que valoran la sostenibilidad sin comprometer la calidad.</p>
-        </div>
-
-        <div class="product-card">
-            <img src="hydrooil-set.jpg" alt="Set de colores HydroOil">
-            <h2>Set HydroOil</h2>
-            <p>Paquetes curados con paletas esenciales para principiantes y profesionales. Desde tonos clásicos hasta mezclas contemporáneas.</p>
-        </div>
-
-        <div class="product-card">
-            <img src="medium-ecologico.jpg" alt="Medium ecológico">
-            <h2>Medium Ecológico</h2>
-            <p>Extensor y modulador de brillo hecho a base de componentes vegetales. Ideal para modificar la textura sin comprometer la seguridad del ambiente de trabajo.</p>
-        </div>
-
-        <div class="product-card">
-            <img src="limpiador-bio.jpg" alt="Limpiador Biodegradable">
-            <h2>Limpiador Biodegradable</h2>
-            <p>Solución efectiva para pinceles y utensilios. Sin químicos agresivos ni vapores nocivos. Seguro para estudio y hogar.</p>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="footer-content">
-            <p>&copy; 2025 AquaPaint. Todos los derechos reservados.</p>
-            <ul>
-                <li><a href="aviso-privacidad.html">Aviso de Privacidad</a></li>
-                <li><a href="terminos.html">Términos y Condiciones</a></li>
-            </ul>
-        </div>
+    <footer>
+        <p>&copy; 2025 AquaPaint - Todos los derechos reservados</p>
+        <p><a href="contacto.html">Contáctanos</a> | <a href="sostenibilidad.html">Más sobre Sostenibilidad</a></p>
     </footer>
 
     <script src="script.js"></script>

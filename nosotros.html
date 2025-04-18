@@ -5,31 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros - AquaPaint</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
-    <header class="navbar">
-        <div class="logo-placeholder">AquaPaint</div>
-        <button class="hamburger" aria-label="Abrir menú">
-            <span></span><span></span><span></span>
-        </button>
-        <nav class="nav-links">
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html" class="active">Nosotros</a>
-            <a href="productos.html">Productos</a>
-            <a href="proyectos.html">Proyectos</a>
-            <a href="sostenibilidad.html">Sostenibilidad</a>
-            <a href="contacto.html">Contacto</a>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="AquaPaint Logo" class="logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="sostenibilidad.html">Sostenibilidad</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
 
-    <main>
-        <section class="about-hero">
-            <h1>Sobre AquaPaint</h1>
-            <p>Impulsando una nueva era del arte con soluciones sostenibles.</p>
-        </section>
-
-        <section class="about-grid">
+    <section class="about">
+        <h1>Sobre AquaPaint</h1>
+        <div class="about-grid">
             <div class="about-item">
                 <h2>Misión</h2>
                 <p>Ofrecer materiales artísticos de alta calidad que respeten la salud de los artistas y el medio ambiente, democratizando el acceso al arte sostenible.</p>
@@ -40,29 +35,16 @@
             </div>
             <div class="about-item">
                 <h2>Valores</h2>
-                <ul>
-                    <li>Innovación sostenible</li>
-                    <li>Compromiso ambiental</li>
-                    <li>Accesibilidad para tod@s</li>
-                    <li>Transparencia y calidad</li>
-                </ul>
+                <p>Creemos en el arte como una forma de expresión consciente, que no debe comprometer ni la salud humana ni el equilibrio del planeta.</p>
             </div>
-            <div class="about-item">
-                <h2>Equipo</h2>
-                <p>Nuestro equipo está conformado por ingenier@s, artistas y visionari@s apasionad@s por crear una nueva forma de pintar sin dañar el planeta.</p>
-            </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
     <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 AquaPaint. Todos los derechos reservados.</p>
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="aviso.html">Aviso legal</a>
-                <a href="privacidad.html">Privacidad</a>
-            </nav>
-        </div>
+        <p>&copy; 2025 AquaPaint - Todos los derechos reservados</p>
+        <p><a href="contacto.html">Contáctanos</a> | <a href="sostenibilidad.html">Más sobre Sostenibilidad</a></p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
